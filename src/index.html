@@ -14,13 +14,20 @@
 
   <link href="./css/styles.css" rel="stylesheet">
 </head>
-<body class="font-open">
+<body class="font-open dark">
+
+  <!-- Dark/Light Toggle  -->
+  <div class="absolute top-1 left-5 cursor-pointer text-lg">
+    <i class="fa-solid fa-sun text-white" id="sun"></i>
+    <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+  </div>
+
   <!-- Header Section -->
-  <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+  <header class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
     <!-- Header Container -->
     <div class="container flex items-center justify-between space-x-8  lg:space-x-16 ">
         <!--Logo  -->
-        <a href="#" class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-grey">ULUSOY</a>
+        <a href="#" class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-amber-600">ULUSOY</a>
 
         <!-- Mobile Menu -->
         <div class="block md:hidden pr-4">
@@ -112,7 +119,7 @@
   </section>
 
   <!-- Movies Section -->
-  <section class="py-24 bg-black">
+  <section class="py-24 bg-white dark:bg-black">
     <!-- Movies Content -->
     <div class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
       <!-- Left Content -->
@@ -120,8 +127,8 @@
         <!-- Titles -->
         <div class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
           <h2><a href="#" class="text-gega-red">Latest</a></h2>
-          <h2><a href="#" class="text-gega-grey pl-2 hover:text-gega-red duration-500">Populer</a></h2>
-          <h2><a href="#" class="text-gega-grey  pl-2 hover:text-gega-red duration-500">Best</a></h2>
+          <h2><a href="#" class="text-black dark:text-gega-grey pl-2 hover:text-gega-red duration-500">Populer</a></h2>
+          <h2><a href="#" class="text-black dark:text-gega-grey  pl-2 hover:text-gega-red duration-500">Best</a></h2>
         </div>
         <!-- Images Container -->
         <div class="flex flex-wrap">
@@ -131,27 +138,27 @@
             <img src="./images/mv1.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Oblivion</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class=" text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 font-bold ">Oblivion</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
           <!-- Image 2 -->
           <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!-- Image -->
-            <img src="./images/mv2.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
+            <img src="./images/mv4.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Into the Wild</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Into the Wild</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
 
@@ -165,12 +172,12 @@
             <img src="./images/mv3.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Mulholand Drive</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Mulholand Drive</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
@@ -181,12 +188,12 @@
             <img src="./images/mv4.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">2049</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">2049</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
@@ -197,12 +204,12 @@
             <img src="./images/mv5.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">The Forest</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">The Forest</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
@@ -213,12 +220,12 @@
             <img src="./images/mv6.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Skyfall</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Skyfall</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
@@ -228,12 +235,12 @@
             <img src="./images/mv2.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Oblivion</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Into The Wild</h3>
+                <p class="text-xs font-bold  opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
@@ -243,12 +250,12 @@
             <img src="./images/mv1.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
               <!-- Image Detail Container  -->
               <div class="absolute px-6 bottom-8">
-                <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Oblivion</h3>
-                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
+                <h3 class="font-bold text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 ">Oblivion</h3>
+                <p class="text-xs font-bold opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-black dark:text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorum?</p>
                 <!-- Items Container -->
                 <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
-                  <a class="hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="text-black dark:text-white hover:text-gega-red " href="#"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
           </div>
@@ -260,7 +267,7 @@
       <!-- Right Content -->
       <div class="basis-1/3 pl-10 lg:pl-0 ">
         <!-- Title -->
-        <h2 class="text-gega-grey mb-8">Hot News</h2>
+        <h2 class="text-black dark:text-gega-grey mb-8">Hot News</h2>
         <!-- News Container -->
         <div class="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
           <!-- Item 1-->
@@ -271,8 +278,8 @@
             </div>
             <!-- Item Detail -->
             <div class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
-              <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+              <p class="text-sm text-black dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
+              <p class="text-xs text-black dark:text-white tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
             </div>
           </div>
           <!-- Item 2 -->
@@ -283,8 +290,8 @@
             </div>
             <!-- Item Detail -->
             <div class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
-              <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+              <p class="text-sm text-black dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
+              <p class="text-xs text-black dark:text-white tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
             </div>
           </div>
           <!-- Item 3 -->
@@ -295,8 +302,8 @@
             </div>
             <!-- Item Detail -->
             <div class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
-              <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+              <p class="text-sm text-black dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
+              <p class="text-xs text-black dark:text-white tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
             </div>
           </div>
           <!-- Item 4 -->
@@ -307,8 +314,8 @@
             </div>
             <!-- Item Detail -->
             <div class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
-              <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+              <p class="text-sm text-black dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
+              <p class="text-xs text-black dark:text-white tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
             </div>
           </div>
           <!-- Item 5 -->
@@ -319,8 +326,8 @@
             </div>
             <!-- Item Detail -->
             <div class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
-              <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+              <p class="text-sm text-black dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis?</p>
+              <p class="text-xs text-black dark:text-white tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
             </div>
           </div>
           
@@ -332,7 +339,7 @@
   </section>
 
   <!-- Matrix Section -->
-  <section class="bg-gega-white ">
+  <section class="dark:bg-gega-white bg-black ">
     <!-- Matrix Section Container -->
     <div class="container flex items-center justify-center relative pl-10 lg:pl-0">
       <!-- Left Content -->
@@ -344,8 +351,8 @@
         <!-- Right Content Container -->
         <div class="flex flex-col justify-center py-10 w-3/4 md:w-full">
           <h3 class="tracking-wider text-gega-melon">ACTION-DRAMA-THRILLER</h3>
-          <h2 class="mb-2">Matrix Reloaded</h2>
-          <p class="text-sm mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt atque vero libero eum dignissimos quod similique sapiente natus enim debitis.</p>
+          <h2 class="mb-2 dark:text-black text-white">Matrix Reloaded</h2>
+          <p class="text-sm mb-2 dark:text-black text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt atque vero libero eum dignissimos quod similique sapiente natus enim debitis.</p>
           <h3 class="tracking-wider text-gega-red">8 wins 34 nominations</h3>
         </div> 
       </div>
@@ -359,11 +366,11 @@
   </section>
 
   <!-- Post Section -->
-  <section class="py-24 bg-black text-gega-grey">
+  <section class="py-24 bg-white text-black dark:bg-black dark:text-gega-grey">
     <!-- Container -->
     <div class="container pr-44 px-10 lg:px-0">
       <!-- Title -->
-      <h2 class="text-gega-red"><a href="#">Popular Posts</a></h2>
+      <h2 class="text-gega-red mb-4"><a href="#">Popular Posts</a></h2>
 
       <!-- Grid Area -->
       <div class="grid grid-cols-6 gap-10">
@@ -482,5 +489,38 @@
     </div>
   </section>
 
+  <!-- Footer Section -->
+  <footer class="bg-white text-black dark:bg-black dark:text-gega-grey">
+      <!-- Footer Container -->
+      <div class="container flex flex-col md:flex-row px-10 lg:px-0 pb-8">
+        <!-- Left -->
+        <div class="basis-1/3">
+          <!--Logo  -->
+          <a href="#" class="text-2xl lg:text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-amber-600">ULUSOY</a>
+          <p class="text-sm mt-2">2022 Ulusoy No &copy; COPYRIGHT</p>
+        </div> 
+        <!-- Middle -->
+        <div class="basis-1/3 my-4 md:my-0">
+          <h2 class="mb-2 text-gega-red">LINKS</h2>
+          <div class="grid grid-cols-5 gap-2 uppercase">
+            <a href="#" class="col-span-2 hover:text-gega-melon duration-500">Movies</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon duration-500">Celebrities</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon duration-500">Blog</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon duration-500">News</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon duration-500">About</a>
+          </div>
+        </div> 
+        <!-- Right -->
+        <div class="basis-1/3">
+          <h2 class="mb-2 text-gega-red">FOLLOW US</h2>
+          <form class="flex" action="">
+            <input class="py-1 px-2 bg-transparent border border-gega-red placeholder:text-xs outline-none" placeholder="TYPE YOUR EMAIL" type="text">
+            <button class="py-1 px-2  border border-gega-red bg-gega-red font-gemunu uppercase ">Subscribe</button>
+          </form>
+        </div>
+      </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
