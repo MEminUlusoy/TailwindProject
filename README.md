@@ -2,6 +2,8 @@
 
 -TailwindProject is a website that you can see movies.It is a completely responsive webpage.
 
+-Website has also dark and light mode.
+
 -I learned Tailwind and I did responsive design with tailwind.
 
 -I have used HTML and Tailwind.
@@ -17,6 +19,8 @@ Screenshots from Homepage:
 ![t2](https://github.com/MEminUlusoy/TailwindProject/assets/68780064/e6f12f23-3c70-4445-9337-364cacdebf8b)
 
 ![t3](https://github.com/MEminUlusoy/TailwindProject/assets/68780064/ab209233-92e4-4768-b806-43a0b693a1ee)
+
+![t4](https://github.com/MEminUlusoy/TailwindProject/assets/68780064/ca76f070-1fb0-4fd7-8971-9e215bbe6667)
 
 <h1>LIVE DEMO</h1>
 
