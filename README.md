@@ -1,4 +1,4 @@
-# CoffeeShop
+# Tailwind Movie Project
 
 -TailwindProject is a website that you can see movies.It is a completely responsive webpage.
 
